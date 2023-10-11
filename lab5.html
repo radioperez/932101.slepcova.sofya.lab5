@@ -1,0 +1,50 @@
+ <!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+<title>Web lab5</title>
+<link rel="stylesheet" type="text/css" href="lab5style.css">
+</head>
+<body>
+<div class="column">
+	<div class="post" id="p1">
+		<h2>Новость 1</h2>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum suscipit sed delectus facere veritatis autem quisquam unde nam doloribus?</p>
+		<button type="button" onclick="displayPost1()">Открыть всплывающее окно</button>
+		<hr>
+	</div>
+	
+	<div class="post" id="p2">
+		<h2>Новость 2</h2>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum suscipit sed delectus facere veritatis autem quisquam unde nam doloribus?</p>
+		<button type="button" onclick="displayPost2()">Открыть всплывающее окно</button>
+		<hr>
+	</div>
+	
+	<div class="post" id="p3">
+		<h2>Новость 3</h2>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum suscipit sed delectus facere veritatis autem quisquam unde nam doloribus?</p>
+		<button type="button" onclick="displayPost3()">Открыть всплывающее окно</button>
+		<hr>
+	</div>
+</div>
+
+<div id="whitecover" onclick="unDisplay()">
+</div>
+
+<div class="popups">
+	<div class="fullpost" id="f1">
+		<h1>Новость 1</h1>
+		<p>Новость 1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.</p>
+	</div>
+	<div class="fullpost" id="f2">
+		<h1>Новость 2</h1>
+		<p>Новость 2. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.</p>
+	</div>
+	<div class="fullpost" id="f3">
+		<h1>Новость 3</h1>
+		<p>Новость 3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet asperiores aut nihil! Corporis debitis labore fugiat id, eligendi ratione veritatis!<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam hic, ipsa, ullam, cupiditate eveniet at voluptate corrupti commodi nobis ratione voluptatem! Vel animi totam cupiditate doloribus ad ab exercitationem officia eveniet impedit? Deleniti quasi nisi consectetur perspiciatis quibusdam nostrum, enim perferendis nam, magni molestias recusandae id libero vitae, repudiandae praesentium.</p>
+	</div>
+</div>
+<script src="lab5.js"></script>
+</body>
